@@ -1,0 +1,7 @@
+package InheritanceExplained;
+
+public interface Bicycle1 {
+
+	public void run(int a);
+	void stop();
+}
