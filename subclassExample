@@ -1,0 +1,23 @@
+package InheritanceExplained;
+
+import java.util.Scanner;
+
+public class subclass2 extends ParentalSuperClass{
+
+	
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		subclass2 child2 = new subclass2();
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("What's your name? ");
+		String yourname = keyboard.nextLine();
+		
+		System.out.println("My name is " + child2.getName());
+		System.out.println("Nice to meet you " + yourname + ". What do you know about inheritance?.");
+	
+      
+	}
+
+}
