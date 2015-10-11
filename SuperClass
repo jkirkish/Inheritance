@@ -1,0 +1,76 @@
+package InheritanceExplained;
+
+import java.util.Date;
+
+public class ParentalSuperClass {
+	
+	 String name = "Joseph Kirkish";
+     static ParentalSuperClass parent = new ParentalSuperClass();
+     static Date date = new Date();
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	//This method gives you the answers to the homework questions
+	public void displayHomeWork() {
+		System.out.println("HOMEWORK");
+		System.out.println("--------------------------------------------_");
+		System.out.println("1. What is inheritance?");
+		System.out.println("ONE CONCEPT OF JAVA OBJECT ORIENTED PROGRAMMING THAT OFFERS");
+		System.out.println("A FORM OF SOFTWARE REUSE IN WHICH A NEW CLASS IS CREATED ");
+		System.out.println("BY ABSORBING AN EXISTIN CLASS'S MEMBERS AND EMBELLISHING ");
+	    System.out.println("THEM WITH NEW OR MODIFIED CAPABILITIES WITH CHILD CLASSES");
+	    System.out.println("KIND OF LIKE A CHILD WITH BLUES EYES WHO INHERITS BLUE EYES FROM ");
+	    System.out.println("MOTHER WITH BLUE EYES.");
+		System.out.println("2. How many childrens a parent class can have?");
+		System.out.println("A PARENT CAN HAVE AS MANY CHILDREN CLASSES AS THEY WANT.");
+		System.out.println("3. How many parents a child class can have?");
+		System.out.println("ONLY ONE.");
+		System.out.println("4. What is parent class?");
+		System.out.println("tHE SUPERCLASS FROM WHICH A CHILD CLASS INHERITS FUNCTIONALITY FROM");
+		System.out.println("THE PARENT CLASS IS AT THE TOP OF THE INHERITANCE HIERARCHY.");
+		System.out.println("5. Write different names of parent class?");
+		System.out.println("SUPERCLASS, BASECLASS ARE OTHER NAMES FOR PARENT CLASS");
+		System.out.println("6. Advantages of inheritance?");
+		System.out.println("YOU CAN ADD EXTENDED FUNCTIONALITY WITH UNLIMITED CHILD CLASSES");
+		System.out.println("YOU CAN ALSO REUSE CLASSES WITHOUT THE NEED TO REWRITE NEW ONES");
+		System.out.println("THIS SAVES TIME. YOU CAN ALSO OVERLOAD INHERITED FUNCTIONALITY");
+		System.out.println("7. What is multiple inheritance? Is it possible in Java?");
+		System.out.println("MULTPLE INHERITANCE OCCURS WHEN A CLASS IS DERIVED FROM MORE THAN ONE DIRECT SUPERCLASS");
+		System.out.println("NO, JAVA DOES NOT SUPPORT MULTIPLE INHERITANCE");
+		System.out.println("8. What is child class?");
+		System.out.println("A CHILD CLASS IS A SUBCLASS THAT INHERITS FUNCTIONALITY FROM THE PARENT CLASS.");
+		System.out.println("A CHILD CLASS INHERITS ALL METHODS OF ITS SUPERCLASS");
+		System.out.println("A CHILD CLASS INHERITS ALL ASSOCIATIONS OF ITS SUPERCLASS");
+		System.out.println("9. Write different names for child classes.");
+		System.out.println("A CHILD CLASS IS ALSO KNOWN AS A SUBCLASS");
+		System.out.println("10. Write a program to demonstrate inheritance?");
+		System.out.println("11. Which keyword created parent child relationship?");
+		System.out.println("EXTENDS");
+        System.out.println("---------------------------------------------------------");
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+   System.out.println("Hello, my name is: " + parent.getName());
+   System.out.println("Today's date is: " + date);
+   System.out.println("This is the parent class. The Homework on Inheritance is: ");
+   
+     parent.displayHomeWork();
+	 
+	}
+
+}
+
