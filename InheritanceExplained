@@ -1,0 +1,20 @@
+package InheritanceExplained;
+
+public class subClass1 extends ParentalSuperClass{
+	
+	
+    
+    
+	public static void main(String[] args) {
+		
+		
+		System.out.println("I am executed from child class");
+		System.out.println("");
+		System.out.println("");
+		
+		 subClass1 object1 = new subClass1();
+		 object1.displayHomeWork();
+		
+	}
+
+}
